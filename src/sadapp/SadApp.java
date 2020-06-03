@@ -14,7 +14,7 @@ public class SadApp extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLMain.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("views/RegistroEmpleado.fxml"));
         
         Scene scene = new Scene(root);
         
